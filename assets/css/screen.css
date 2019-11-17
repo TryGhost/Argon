@@ -58,23 +58,19 @@ html,
     margin: 0 auto;
 }
 
-.gh-head-actions a {
+.gh-foot-actions a {
     display: inline-flex;
     align-items: center;
     margin: 0;
     padding: 10px;
 }
 
-.gh-head-actions a svg {
+.gh-foot-actions a svg {
     height: 1.8rem;
     fill: currentcolor;
 }
 
-.gh-head-actions a:first-child svg {
-    margin-left: 20px;
-}
-
-.gh-head-actions a:last-child svg {
+.gh-foot-actions a:last-child svg {
     height: 2rem;
 }
 

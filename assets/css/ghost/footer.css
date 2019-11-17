@@ -43,6 +43,28 @@
     box-shadow: 0 -1px 0 0 currentcolor inset;
 }
 
+.gh-foot-actions {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    text-align: right;
+}
+
+.gh-foot-actions-list {
+    display: inline-flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    align-items: center;
+    margin: 2vmin 0 0 0;
+}
+
+.gh-foot-actions-list a {
+    display: inline-block;
+    margin: 0 1.5vmin;
+    padding: 5px 0;
+}
+
 .gh-foot-meta {
     margin: 2rem 0;
     font-size: 1.5rem;
