@@ -1,6 +1,6 @@
-# Ghost Starter Theme
+# Argon
 
-A starter framework for Ghost themes! Fork this repository and start your development here with all the main things you need to develop a custom Ghost theme.
+A simple publishing theme for [Ghost](https://ghost.org)
 
 &nbsp;
 
