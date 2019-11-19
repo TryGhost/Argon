@@ -226,8 +226,9 @@ body:not(.gh-head-open) .gh-burger:hover .gh-burger-inner::after {
 .gh-head-stacked .gh-head-actions-list {
     justify-content: center;
 }
-.gh-head-stacked .gh-head-actions a:first-child svg {
-    margin-left: 0;
+.gh-head-stacked .gh-head-menu .nav li,
+.gh-head-stacked .gh-head-actions svg {
+    margin: 0 0.75vw;
 }
 
 
