@@ -118,7 +118,7 @@ sub {
 }
 
 a:not([class]) {
-    color: color(var(--color-primary) l(-5%));
+    color: var(--color-primary);
     text-decoration-skip-ink: auto;
 }
 
