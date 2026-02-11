@@ -7,15 +7,15 @@ on:
       - 'renovate/*'
 jobs:
   build:
-    runs-on: ubuntu-18.04
+    runs-on: ubuntu-latest
     if: github.event_name == 'push' || (github.event_name == 'pull_request' && !startsWith(github.head_ref, 'renovate/'))
     strategy:
       matrix:
-        node: [ '10' ]
+        node: [ '22' ]
     name: Node ${{ matrix.node }}
     steps:
-      - uses: actions/checkout@v3
-      - uses: actions/setup-node@v3
+      - uses: actions/checkout@v6
+      - uses: actions/setup-node@v6
         with:
           node-version: ${{ matrix.node }}
       - run: yarn
